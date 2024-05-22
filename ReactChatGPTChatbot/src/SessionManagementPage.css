@@ -1,0 +1,38 @@
+.session-list {
+    padding: 20px;
+}
+
+.session-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.session-header {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.session-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.session-content {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.session-content pre {
+    font-size: 0.9em;
+    color: #666;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+}
